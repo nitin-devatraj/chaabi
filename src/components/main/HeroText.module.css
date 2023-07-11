@@ -1,0 +1,24 @@
+.section {
+  height: 96px;
+  background-color: #0c57e5;
+  margin: 0px;
+  padding-top: 10px;
+  color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.section h2,
+h3 {
+  margin: 0px 30px;
+  margin-bottom: 5px;
+}
+
+.section h2 {
+  font-size: 35px;
+}
+
+.section h3 {
+  font-size: 12px;
+  font-weight: 100;
+}
