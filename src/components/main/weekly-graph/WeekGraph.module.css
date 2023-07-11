@@ -1,0 +1,49 @@
+.weekGraph {
+  padding: 15px;
+  min-width: 220px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.weekGraph p {
+  margin: 0px;
+}
+
+.weekGraph h4 {
+  margin: 0px;
+  font-weight: 200;
+}
+
+.detailsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.graph,
+.details {
+  width: 50%;
+}
+
+.details > p {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.subDetails {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  font-size: 12px;
+}
+
+.percent {
+  padding: 5px 8px;
+  color: #10944d;
+  background-color: #e6f4ed;
+  border-radius: 5px;
+}

@@ -11,22 +11,22 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <i class="fi fi-sr-apps-add"></i>Dashboard
+              <i className="fi fi-sr-apps-add"></i>Dashboard
             </li>
             <li>
-              <i class="fi fi-ss-gamepad"></i>Trainings
+              <i className="fi fi-ss-gamepad"></i>Trainings
             </li>
             <li>
-              <i class="fi fi-sr-square-star"></i>Users
+              <i className="fi fi-sr-square-star"></i>Users
             </li>
             <li>
-              <i class="fi fi-ss-marker"></i>Analytics
+              <i className="fi fi-ss-marker"></i>Analytics
             </li>
             <li>
-              <i class="fi fi-ss-marker"></i>My Account
+              <i className="fi fi-ss-marker"></i>My Account
             </li>
             <li>
-              <i class="fi fi-ss-marker"></i>Support
+              <i className="fi fi-ss-marker"></i>Support
             </li>
           </ul>
         </nav>
