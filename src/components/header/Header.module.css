@@ -1,0 +1,42 @@
+.header {
+  width: 18vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header img {
+  width: 185px;
+  padding: 22px 0px;
+}
+
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header li {
+  padding: 8px 32px;
+  margin: 20px 0px;
+  color: #0d62ff;
+  border-radius: 5px;
+  transition: background-color 0.1s;
+}
+
+.header hr {
+  width: 100%;
+  border-top: 1.5px solid #ccc;
+}
+
+.header i {
+  display: inline-block;
+  margin: 0px 18px;
+}
+
+.header li:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #0d62ff;
+}
