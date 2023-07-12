@@ -3,6 +3,7 @@ import classes from "./Main.module.css";
 import HeroText from "./hero-text/HeroText";
 import Week from "./weekly-graph/Week";
 import Report from "./report/Report";
+import Footer from "../footer/Footer";
 
 function Main(props) {
   const heroText = {
@@ -15,6 +16,7 @@ function Main(props) {
       <section className={classes.container}>
         <Week />
         <Report />
+        <Footer />
       </section>
     </main>
   );
