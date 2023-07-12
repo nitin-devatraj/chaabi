@@ -1,0 +1,31 @@
+.container {
+  width: 21.2%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.container h4 {
+  font-weight: 200;
+  margin: 0;
+}
+
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.details li {
+  font-size: 12px;
+  margin: 5px 0px;
+}

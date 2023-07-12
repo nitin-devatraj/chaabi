@@ -1,7 +1,8 @@
 import React from "react";
 import classes from "./Main.module.css";
-import HeroText from "./HeroText";
+import HeroText from "./hero-text/HeroText";
 import Week from "./weekly-graph/Week";
+import Report from "./report/Report";
 
 function Main(props) {
   const heroText = {
@@ -13,6 +14,7 @@ function Main(props) {
       <HeroText {...heroText} />
       <section className={classes.container}>
         <Week />
+        <Report />
       </section>
     </main>
   );
