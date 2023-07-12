@@ -42,7 +42,13 @@ const PieChart = () => {
         },
         borderWidth: 1,
         borderColor: "black",
-        colors: ["#e7efff", "white", "white", "white", "white"],
+        colors: [
+          "#e7efff",
+          "whitesmoke",
+          "whitesmoke",
+          "whitesmoke",
+          "whitesmoke",
+        ],
       },
     },
     series: [

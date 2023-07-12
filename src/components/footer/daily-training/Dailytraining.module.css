@@ -1,6 +1,23 @@
 .card {
   width: 42.8%;
+  height: 295px;
   padding: 15px;
   border-radius: 10px;
   background-color: white;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading h4 {
+  font-weight: 100;
+}
+
+.chart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
