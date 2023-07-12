@@ -1,12 +1,12 @@
 import React from "react";
-import classes from "./Footer.module.css";
+import classes from "./ThirdRow.module.css";
 import MonthlyTraining from "./monthly-training/MonthlyTraining";
 import QuizResults from "./quiz-results/QuizResults";
 import DailyTraining from "./daily-training/DailyTraining";
 
-function Footer() {
+function ThirdRow() {
   return (
-    <section className={classes.wrapper}>
+    <section className={classes.section}>
       <MonthlyTraining />
       <QuizResults />
       <DailyTraining />
@@ -14,4 +14,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default ThirdRow;

@@ -1,11 +1,11 @@
 import React from "react";
-import classes from "./Header.module.css";
+import classes from "./Nav.module.css";
 import logo from "../../assets/logo.png";
 
-function Header() {
+function Nav() {
   return (
     <>
-      <div className={classes.header}>
+      <header className={classes.header}>
         <img src={logo} alt="logo" />
         <hr />
         <nav>
@@ -30,9 +30,9 @@ function Header() {
             </li>
           </ul>
         </nav>
-      </div>
+      </header>
     </>
   );
 }
 
-export default Header;
+export default Nav;

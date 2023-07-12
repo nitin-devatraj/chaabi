@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "./Report.module.css";
+import classes from "./SecondRow.module.css";
 import ChapterWiseStatus from "./chapter-wise-status/ChapterWiseStatus";
 import LastActiveDays from "./last-active-days/LastActiveDays";
 
-function Report() {
+function SecondRow() {
   return (
     <section className={classes.section}>
       <ChapterWiseStatus />
@@ -12,4 +12,4 @@ function Report() {
   );
 }
 
-export default Report;
+export default SecondRow;

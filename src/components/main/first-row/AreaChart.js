@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 
-const Graph = (props) => {
+const AreaChart = (props) => {
   useEffect(() => {
     Highcharts.setOptions({
       colors: [`rgb(${props.bg})`],
@@ -84,4 +84,4 @@ const Graph = (props) => {
   return <HighchartsReact highcharts={Highcharts} options={config} />;
 };
 
-export default Graph;
+export default AreaChart;

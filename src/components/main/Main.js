@@ -1,11 +1,12 @@
 import React from "react";
 import classes from "./Main.module.css";
 import HeroText from "./hero-text/HeroText";
-import Week from "./weekly-graph/Week";
-import Report from "./report/Report";
-import Footer from "../footer/Footer";
 
-function Main(props) {
+import FirstRow from "./first-row/FirstRow";
+import SecondRow from "./second-row/SecondRow";
+import ThirdRow from "./third-row/ThirdRow";
+
+function Main() {
   const heroText = {
     title: "Hello, Puneet Dhiman",
     subTitle: "Following Is Your Organisation's Performance Summary",
@@ -14,9 +15,9 @@ function Main(props) {
     <main className={classes.main}>
       <HeroText {...heroText} />
       <section className={classes.container}>
-        <Week />
-        <Report />
-        <Footer />
+        <FirstRow />
+        <SecondRow />
+        <ThirdRow />
       </section>
     </main>
   );

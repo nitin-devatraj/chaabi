@@ -1,8 +1,8 @@
 import React from "react";
-import classes from "./WeekGraph.module.css";
-import Graph from "./Graph";
+import classes from "./Card.module.css";
+import AreaChart from "./AreaChart";
 
-function WeekGraph(props) {
+function Card(props) {
   const { text, hours, percent, avg, bg } = props;
   return (
     <div className={classes.weekGraph}>
@@ -18,11 +18,11 @@ function WeekGraph(props) {
           </div>
         </div>
         <div className={classes.graph}>
-          <Graph bg={bg} />
+          <AreaChart bg={bg} />
         </div>
       </div>
     </div>
   );
 }
 
-export default WeekGraph;
+export default Card;

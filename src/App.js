@@ -1,11 +1,11 @@
 import classes from "./App.module.css";
-import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
 import Main from "./components/main/Main";
 
 function App() {
   return (
     <div className={classes.container}>
-      <Header />
+      <Nav />
       <Main />
     </div>
   );

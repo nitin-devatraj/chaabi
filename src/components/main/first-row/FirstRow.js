@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "./Week.module.css";
-import WeekGraph from "./WeekGraph";
+import classes from "./FirstRow.module.css";
+import Card from "./Card";
 
-function Week() {
-  const weeks = [
+function FirstRow() {
+  const cards = [
     {
       text: "In Training Workers",
       hours: "3,354",
@@ -40,11 +40,11 @@ function Week() {
 
   return (
     <section className={classes.section}>
-      {weeks.map((item) => (
-        <WeekGraph {...item} key={item.id} />
+      {cards.map((item) => (
+        <Card {...item} key={item.id} />
       ))}
     </section>
   );
 }
 
-export default Week;
+export default FirstRow;

@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Dailytraining.module.css";
-import TrainingCompletionChart from "./TrainingCompletionChart";
+import BarChart from "./BarChart";
 
 function DailyTraining() {
   return (
@@ -10,7 +10,7 @@ function DailyTraining() {
         <h4>Last 7 Days</h4>
       </div>
       <div className={classes.chart}>
-        <TrainingCompletionChart />
+        <BarChart />
       </div>
     </div>
   );
